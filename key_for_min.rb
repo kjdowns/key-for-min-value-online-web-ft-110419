@@ -21,3 +21,5 @@ def key_for_min_value(name_hash)
     return nil 
   end
 end
+
+key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
