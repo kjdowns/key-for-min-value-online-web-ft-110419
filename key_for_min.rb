@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   lowest_key = nil
   prev_value = nil
   name_hash.each do |key, value|
-    binding.pry
+    #binding.pry
     if !lowest_key && !prev_value
       lowest_key = key
       prev_value = value
